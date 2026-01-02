@@ -6,7 +6,9 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 # Download necessary NLTK data
+# Download required NLTK data
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 nltk.download('stopwords', quiet=True)
 nltk.download('wordnet', quiet=True)
 
